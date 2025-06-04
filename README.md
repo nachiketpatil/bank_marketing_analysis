@@ -119,7 +119,7 @@ The technique used to improve the models is hyperparameter tuning using GridSear
 
 Performance of tuning and result metrics for each model:
 
-| Model              | Train Time | Train Accuracy | Test Accuracy | Recall Score | Best Score | AUC     | Best Params Summary                                        |
+| Model              | Train Time | Train Accuracy | Test Accuracy | Recall Score | Best Score | AUC     | Best Params                                                |
 |--------------------|------------|----------------|---------------|--------------|------------|---------|------------------------------------------------------------|
 | LogisticRegression | 10.497     | 0.9164         | 0.9101        | 0.4364       | 0.9099     | 0.9424  | C=1, solver="liblinear", penalty="l2", scaled              |
 | DecisionTree       | 5.4199     | 0.9185         | 0.916         | 0.528        | 0.912      | 0.9328  | max_depth=5, criterion="gini", min_samples_split=2, scaled |
