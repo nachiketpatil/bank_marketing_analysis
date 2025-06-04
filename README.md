@@ -128,16 +128,16 @@ Performance of tuning and result metrics for each model:
 
 Visualization of the model performance metrics:
 - Model train and predict times:
-![Image](images/model_train_predict_time_comparison.png)
+![Image](/images/model_train_predict_time_comparison.png)
 
 
 - Model Test and train accuracy scores:
-![Image](images/model_test_accuracy_comparison.png)
+![Image](/images/model_test_accuracy_comparison.png)
 
-![Image](images/model_train_accuracy_comparison.png)
+![Image](/images/model_train_accuracy_comparison.png)
 
 - Model Recall scores:
-![Image](images/model_recall_score_comparison.png)
+![Image](/images/model_recall_score_comparison.png)
 
 From this model improvement analysis, we can see that:
 - Logistic Regression does not improve significantly in terms of recall but maintains a good balance across all metrics.
