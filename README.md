@@ -130,8 +130,10 @@ Visualization of the model performance metrics:
 - Model train and predict times:
 ![Image](images/model_train_predict_time_comparison.png)
 
+
 - Model Test and train accuracy scores:
 ![Image](images/model_test_accuracy_comparison.png)
+
 ![Image](images/model_train_accuracy_comparison.png)
 
 - Model Recall scores:
@@ -141,7 +143,7 @@ From this model improvement analysis, we can see that:
 - Logistic Regression does not improve significantly in terms of recall but maintains a good balance across all metrics.
 - Decision Tree: Improvement in train and test accuracies but no improvement in recall.
 - KNN: Slight improvement in test accuracy but recall remains low.
-- SVM: 
+- SVM: There is no improvement in almost any aspect for SVM.
 
 Because of the imbalance in target variable distribution, KNN and Decision Tree models were not able to improve the recall score significantly.
 For same reason, KNN and SVM models take significantly longer to train and predict, which is not ideal for a production environment.
