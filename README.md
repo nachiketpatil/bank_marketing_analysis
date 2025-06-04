@@ -2,21 +2,12 @@
 This is practical assignment 3 to analyse performance of different ML models on bank direct marketing data
 
 ## Problem Statement
-
-The commands and code to manipulate and visualize the data is provided in and Interactive Python Notebook (Jupyter Notebook) in the repository.
+The goal of this exercise is to evaluate performance and accuracy of different Classification models in ML on the given Bank Direct Marketing Dataset. Provide actionable feedback based on the analysis.
 
 ## Data Description
-The dataset contains :
-### 1. User Attributes
+The dataset is taken from the UCI Machine Learning repository [link](https://archive.ics.uci.edu/ml/datasets/bank+marketing).  It comes from from a Portugese banking institution and is a collection of the results of multiple marketing campaigns. It contains client attributes like age, job, marital status, etc, there are some attributes of when was the client last contacted. Other socio-economic attributes are also included and finally the result of the marketing contact - whether the client accepted the offer of long term deposit or not.
 
-### 2. Contextual Attributes
-
-### 3. Coupon Attributes
-
-
-### Acceptance of coupon Y:  
-
-The dataset is in the `/data` subfolder.
+The dataset is in the `/data` subfolder, file name `bank-additional-full.csv`.
 
 ## Dependencies
 This project requires the following Python libraries:
@@ -36,11 +27,12 @@ Local setup:
 
 ## Repository Structure
 ```
-├── data/                       # Directory for dataset
-│   └── vehicles.csv            # Vehicles dataset
-├── images/                     # Directory for storing visualization images
-├── value_of_a_car.ipynb        # Jupyter Notebook with analysis
-└── README.md                   # Project documentation and analysis results
+├── data/                          # Directory for dataset
+│   └── bank-additional-full.csv   # Main dataset of bank marketing campaign
+├── images/                        # Directory for storing visualization images
+├── bank_marketing_analysis.ipynb  # Jupyter Notebook with analysis
+├── CRISP-DM-BANK.pdf              # White paper for the initial analysis of the data by Sérgio Moro Raul, M. S. Laureano and Paulo Cortez
+└── README.md                      # Project documentation and analysis results
 ```
 
 ## Usage
